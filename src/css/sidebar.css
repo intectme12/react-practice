@@ -1,0 +1,54 @@
+.sidebar {
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    width: 420px;
+    height: fit-content;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.keyword {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 70px 10px 48px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 0;
+}
+
+.keyword:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+.find-keyword {
+    position: absolute;
+    right: 0;
+    height: 60px;
+    width: 65px;
+    border: 0 none;
+    font-size: 100%;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: white;
+}
+.suggestion-container {
+    position: absolute;
+    top: 71px;
+    left: 11px;
+    width: 420px;
+    border: 0;
+    z-index: 1;
+    border-top: 1px solid rgb(255, 0, 0);
+    font-size: 100%;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 1000px;
+}
+
+.suggestion {
+    width: 100%;
+    padding: 15px 70px 15px 25px;
+}

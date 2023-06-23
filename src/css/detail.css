@@ -1,0 +1,9 @@
+.detail-address {
+    position: absolute;
+    top: 130px;
+    left: 11px;
+    width: 420px;
+    height: 600px;
+    background-color: #fff;
+    z-index: 1;
+}
